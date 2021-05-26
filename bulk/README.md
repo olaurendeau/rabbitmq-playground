@@ -3,9 +3,10 @@
 # Play
 
 ```
-docker compose up -d rabbitmq
-docker compose up -d consumer
-docker compose run consumer bin/producer.js
+make build
+make up
+make produce
+make consume
 ```
 
 # Bulk processing with multiple consumer

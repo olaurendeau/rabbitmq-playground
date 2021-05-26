@@ -1,4 +1,4 @@
-# rabbitmq-playground
+# Bulk processing
 
 # Play
 

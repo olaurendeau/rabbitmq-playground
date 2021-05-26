@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olaurendeau/rabbitmq-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olaurendeau/rabbitmq-playground/issues"
+  },
+  "homepage": "https://github.com/olaurendeau/rabbitmq-playground#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "bcrypt": "^5.0.1",
+    "human-readable-ids": "^1.0.4",
+    "sleep": "^6.3.0"
+  }
+}

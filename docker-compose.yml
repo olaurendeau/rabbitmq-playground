@@ -1,0 +1,17 @@
+version: "2.4"
+services:
+  consumer:
+    image: node
+    working_dir: /code
+    volumes:
+      - .:/code
+    command: bin/consumer.js
+    depends_on:
+      - rabbitmq
+    scale: 4
+
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
